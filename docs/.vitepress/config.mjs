@@ -3,7 +3,9 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'My FrontEnd blog',
+  base: '/frontend-blog/',
   description: 'A VitePress Site',
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
