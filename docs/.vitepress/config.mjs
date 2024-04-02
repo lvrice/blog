@@ -20,7 +20,12 @@ export default defineConfig({
       },
       {
         text: 'React',
-        items: [{ text: 'This', link: '/articles/js/this' }],
+        items: [
+          {
+            text: 'State Update Batching',
+            link: '/articles/react/StateUpdateBatching',
+          },
+        ],
       },
     ],
 
