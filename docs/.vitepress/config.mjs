@@ -2,36 +2,30 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'My FrontEnd blog',
+  title: 'Rice’s FrontEnd blog',
   base: '/frontend-blog/',
-  description: 'A VitePress Site',
+  description: 'Rice’s FrontEnd blog',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       // { text: 'Home', link: '/' },
-      { text: 'Home', link: '/markdown-examples' },
+      { text: 'Home', link: '/articles/js/this' },
     ],
 
     sidebar: [
       {
-        text: 'Home',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-        ],
+        text: 'Javascript',
+        items: [{ text: 'This', link: '/articles/js/this' }],
       },
       {
-        text: 'Javascript',
-        items: [
-          { text: 'This', link: '/articles/js/this' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-        ],
+        text: 'React',
+        items: [{ text: 'This', link: '/articles/js/this' }],
       },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/lvrice/frontend-blog.git' },
     ],
   },
 });
