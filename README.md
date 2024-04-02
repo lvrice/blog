@@ -1,3 +1,3 @@
 # blog
 
-tech bolog fix deploy
+tech bolog fix deploy2
