@@ -1,3 +1,3 @@
 # blog
 
-tech bolog ddd
+lvrice tech bolog
