@@ -1,3 +1,3 @@
 # blog
 
-tech bolog hahaha
+tech bolog hahaha update
