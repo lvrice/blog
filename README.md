@@ -1,3 +1,3 @@
 # blog
 
-tech bolog hahaha update
+tech bolog fix deploy
