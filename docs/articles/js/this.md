@@ -1,6 +1,6 @@
 In the world of JavaScript, one of the most misunderstood and often befuddling concepts is the `this` keyword. Unlike many other programming languages, `this` in JavaScript doesn't always refer to the same context, and understanding where it points to can be a challenge. In this article, we'll demystify `this`, exploring its behavior in different contexts and how to use it effectively.
 
-## What is `this`?
+### What is `this`?
 
 In JavaScript, `this` is a special keyword that refers to the context in which a function is called. It's a reference to an object, the one that is currently being "acted upon" or utilized by the function it's inside of.
 
@@ -19,11 +19,11 @@ myObject.showProperty(); // logs: 'I am an object property!'
 
 In this example, `this` inside the `showProperty` method refers to `myObject`.
 
-## Context Matters
+#### Context Matters
 
 The value of `this` is determined by how a function is called, not where it's defined. It's context-dependent and can change.
 
-### Global Context
+#### Global Context
 
 In the global scope (outside any function), `this` refers to the global object. In a browser, this is `window`.
 
@@ -31,7 +31,7 @@ In the global scope (outside any function), `this` refers to the global object. 
 console.log(this === window); // logs: true
 ```
 
-### Function Context
+#### Function Context
 
 Inside a regular function, `this` refers to the global object (in non-strict mode) or is `undefined` (in strict mode).
 
@@ -43,7 +43,7 @@ showThis();
 // logs: window (non-strict mode) or undefined (strict mode)
 ```
 
-### Method Context
+#### Method Context
 
 When a function is called as a method (i.e., it's a property of an object), `this` refers to the object the method is a part of.
 
@@ -56,7 +56,7 @@ var myObject = {
 myObject.showThis(); // logs: myObject
 ```
 
-### Event Handler Context
+#### Event Handler Context
 
 In an event handler, `this` refers to the element that received the event.
 
@@ -66,7 +66,7 @@ button.addEventListener('click', function () {
 });
 ```
 
-## Taking Control of `this` with `call`, `apply`, and `bind`
+### Taking Control of `this` with `call`, `apply`, and `bind`
 
 JavaScript provides three methods to explicitly set what `this` should refer to, regardless of how or where the function was called: `call`, `apply`, and `bind`.
 `call`: Invokes the function and allows you to pass in arguments one by one.

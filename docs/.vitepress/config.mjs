@@ -19,8 +19,14 @@ export default defineConfig({
         items: [
           { text: 'This', link: '/articles/js/this' },
           {
-            text: 'The difference between null and undefined',
+            text: 'Differences between null and undefined',
             link: '/articles/js/null_undefined',
+          },
+          { text: 'Arrow function', link: '/articles/js/ArrowFunction' },
+          { text: 'Double operator', link: '/articles/js/EqualOperator' },
+          {
+            text: 'Differences between map and weakMap',
+            link: '/articles/js/map_weakMap',
           },
         ],
       },
