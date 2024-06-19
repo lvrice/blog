@@ -16,7 +16,13 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Javascript',
-        items: [{ text: 'This', link: '/articles/js/this' }],
+        items: [
+          { text: 'This', link: '/articles/js/this' },
+          {
+            text: 'The difference between null and undefined',
+            link: '/articles/js/null_undefined',
+          },
+        ],
       },
       {
         text: 'React',
