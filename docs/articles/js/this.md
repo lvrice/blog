@@ -1,6 +1,6 @@
 In the world of JavaScript, one of the most misunderstood and often befuddling concepts is the `this` keyword. Unlike many other programming languages, `this` in JavaScript doesn't always refer to the same context, and understanding where it points to can be a challenge. In this article, we'll demystify `this`, exploring its behavior in different contexts and how to use it effectively.
 
-### What is `this`?
+## What is `this`?
 
 In JavaScript, `this` is a special keyword that refers to the context in which a function is called. It's a reference to an object, the one that is currently being "acted upon" or utilized by the function it's inside of.
 

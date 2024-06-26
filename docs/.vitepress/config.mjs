@@ -9,8 +9,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      // { text: 'Home', link: '/' },
       { text: 'Home', link: '/articles/js/this' },
+      { text: 'About me', link: '/' },
     ],
 
     sidebar: [
@@ -27,6 +27,14 @@ export default defineConfig({
           {
             text: 'Differences between map and weakMap',
             link: '/articles/js/map_weakMap',
+          },
+          {
+            text: 'Understanding the execution context',
+            link: '/articles/js/execution_context',
+          },
+          {
+            text: 'What is the garbage collection mechanism of V8',
+            link: '/articles/js/garbage_collection',
           },
         ],
       },

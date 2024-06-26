@@ -1,4 +1,4 @@
-### Differences between map and weakMap
+## Differences between map and weakMap
 
 ### Map
 
